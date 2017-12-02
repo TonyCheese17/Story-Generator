@@ -48,6 +48,11 @@ print()
 
 vehicle_1 = input("Now enter a vehicle: ")
 
+time.sleep(0.5)
+print()
+
+animal_2 = input("How 'bout another animal: ")
+
 print()
 
 time.sleep(0.8)
@@ -69,4 +74,5 @@ print("Once upon a time, there was a "  + animal_1.lower() + " named " + name_1 
 + food_1.lower() + " could not be found in the land that " + name_1 + " lived in!"
 + " However, " + name_1 + " heard from his friend that " + food_1.lower() +
 " could be found in " + place_1 + ". So, he packed up all his stuff and took a "
-+ vehicle_1.lower() + " to " + place_1 + ". )
++ vehicle_1.lower() + " to " + place_1 + ". When he arrived, he looked around and saw a "
++ animal_2 + " walking around!")
